@@ -13,13 +13,12 @@ class MainActivity : Activity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val progressBar = findViewById<ProgressBar>(R.id.mainProgressBar)
         val btnSwitch = findViewById<ImageButton>(R.id.moc_button)
         val btnVc = findViewById<ImageButton>(R.id.vc_button)
         val btnUl = findViewById<ImageButton>(R.id.url_button)
 
 
-        progressBar.progress = 10
+
 
 
         btnSwitch.setOnClickListener {
@@ -32,7 +31,7 @@ class MainActivity : Activity() {
         btnVc.setOnClickListener {
             val intent = Intent(this, vc_screen::class.java)
 
-            intent.putExtra("progress", progressBar.progress)
+
 
             startActivity(intent)
         }
@@ -41,7 +40,7 @@ class MainActivity : Activity() {
         btnUl.setOnClickListener {
             val intent = Intent(this, ul_screen::class.java)
 
-            intent.putExtra("progress", progressBar.progress)
+
 
             startActivity(intent)
         }

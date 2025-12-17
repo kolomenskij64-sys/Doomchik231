@@ -39,14 +39,7 @@
                     android:textColor="#FFD700"
                     android:textSize="30sp" />
 
-                <ProgressBar
-                    android:id="@+id/moc_progressbar"
-                    style="?android:attr/progressBarStyleHorizontal"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:max="100"
-                    android:progress="0"
-                    android:progressDrawable="@drawable/pg_gold" />
+
             </LinearLayout>
 
         </LinearLayout>

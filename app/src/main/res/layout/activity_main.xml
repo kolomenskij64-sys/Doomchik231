@@ -33,16 +33,6 @@
         </LinearLayout>
 
 
-        <ProgressBar
-            android:id="@+id/mainProgressBar"
-            style="?android:attr/progressBarStyleHorizontal"
-            android:layout_width="match_parent"
-            android:layout_height="20dp"
-            android:progress="65"
-            android:max="100"
-            android:progressDrawable="@drawable/pg_gold"
-            android:layout_marginBottom="32dp" />
-
 
         <TextView
             android:layout_width="wrap_content"

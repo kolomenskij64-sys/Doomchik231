@@ -60,23 +60,22 @@ class moc_screen : Activity() {
         setContentView(R.layout.moc_lay)
 
         val btnSwitch = findViewById<ImageButton>(R.id.moc_backbutton)
-        progressBar = findViewById(R.id.moc_progressbar)
+
 
         buttons = listOfNotNull(
             findViewById<ImageButton>(R.id.p1_item_center),
-            findViewById<ImageButton>(R.id.p1_item4),
-            findViewById<ImageButton>(R.id.p2_item1),
-            findViewById<ImageButton>(R.id.p2_item2),
+
+
+
             findViewById<ImageButton>(R.id.p2_item3),
             findViewById<ImageButton>(R.id.p2_item_center),
-            findViewById<ImageButton>(R.id.p2_item4),
-            findViewById<ImageButton>(R.id.p2_item5),
+
+
             findViewById<ImageButton>(R.id.p3_item1),
-            findViewById<ImageButton>(R.id.p3_item2),
-            findViewById<ImageButton>(R.id.p3_item3),
+
+
             findViewById<ImageButton>(R.id.p3_item_center),
-            findViewById<ImageButton>(R.id.p3_item4),
-            findViewById<ImageButton>(R.id.p3_item5)
+
         )
 
         buttons.forEachIndexed { index, button ->
@@ -108,12 +107,7 @@ class moc_screen : Activity() {
         val part = 100f / buttons.size
         val newProgress = (pressed.size * part).toInt()
 
-        animateProgressBar(progressBar, newProgress, 300)
 
-    }
-    private fun animateProgressBar(progressBar: ProgressBar,toProgress: Int, duration: Long){
-        val animator = ObjectAnimator.ofInt(progressBar,"progress",progressBar.progress, toProgress)
-        animator.duration = duration
-        animator.start()
+
     }
 }
