@@ -18,9 +18,8 @@
             android:fontFamily="@font/doom2016right"
             android:layout_marginBottom="8dp"
             android:text="Doom"
-            android:textColor="#F44336"
-            android:textSize="60dp"
-            android:textStyle="bold" />
+            android:textColor="#A00E02"
+            android:textSize="60dp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -40,9 +39,9 @@
             android:layout_marginBottom="16dp"
             android:fontFamily="@font/doom2016right"
             android:text="Combat shotgun"
-            android:textColor="#F44336"
-            android:textSize="30sp"
-            android:textStyle="bold" />
+            android:layout_gravity="center"
+            android:textColor="#A00E02"
+            android:textSize="30sp" />
 
 
         <include layout="@layout/card_m"
@@ -61,10 +60,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Plasma gun"
-            android:textColor="#F44336"
+            android:textColor="#A00E02"
+            android:layout_gravity="center"
             android:fontFamily="@font/doom2016right"
             android:textSize="30sp"
-            android:textStyle="bold"
             android:layout_marginBottom="16dp" />
 
 
@@ -85,9 +84,9 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/doom2016right"
             android:text="Gauss gun"
-            android:textColor="#F44336"
+            android:layout_gravity="center"
+            android:textColor="#A00E02"
             android:textSize="30sp"
-            android:textStyle="bold"
             android:layout_marginBottom="16dp" />
 
 
@@ -106,10 +105,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Rocket launcher"
-            android:textColor="#F44336"
+            android:layout_gravity="center"
+            android:textColor="#A00E02"
             android:fontFamily="@font/doom2016right"
             android:textSize="30sp"
-            android:textStyle="bold"
             android:layout_marginBottom="16dp" />
 
 

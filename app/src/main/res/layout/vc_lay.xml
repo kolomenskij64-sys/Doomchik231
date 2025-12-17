@@ -34,7 +34,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/doom2016right"
                 android:text="PLASMA GUN"
-                android:textColor="#FFD700"
+                android:textColor="#A00E02"
                 android:textSize="30sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.43"

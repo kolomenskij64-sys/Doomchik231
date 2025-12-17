@@ -34,7 +34,7 @@
                 android:layout_height="33dp"
                 android:fontFamily="@font/doom2016right"
                 android:text="SHOOT GUN"
-                android:textColor="#FFD700"
+                android:textColor="#A00E02"
                 android:textSize="30sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"

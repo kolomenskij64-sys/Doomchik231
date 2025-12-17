@@ -12,15 +12,15 @@
 
     <TextView
         android:id="@+id/page1_title"
-        android:layout_width="188dp"
-        android:layout_height="25dp"
+        android:layout_width="145dp"
+        android:layout_height="33dp"
         android:layout_marginStart="4dp"
         android:background="@drawable/card_bg"
+        android:fontFamily="@font/doom2016right"
         android:paddingStart="20dp"
         android:text="TERMAL SHOCK"
-        android:textColor="#FFE600"
-        android:textSize="18sp"
-        android:textStyle="bold"
+        android:textColor="#A00E02"
+        android:textSize="25sp"
         app:layout_constraintStart_toStartOf="@+id/page1_frame"
         app:layout_constraintTop_toTopOf="parent" />
 

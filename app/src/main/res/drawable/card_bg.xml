@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
-    <corners android:radius="8dp" />
-    <solid android:color="#000000" />
+    <!-- Углы слегка скруглены, как у панелей в интерфейсе DOOM -->
+    <corners android:radius="4dp" />
+
+    <!-- Тёмный фоновый цвет, как космос или глубина базы -->
+    <solid android:color="#0A0A12" />
+
+    <!-- Двойная рамка: внутренняя неоновая, внешняя "кровавая" -->
     <stroke
-        android:width="2dp"
-        android:color="#F44336" />
+        android:width="3dp"
+        android:color="#92000A"
+        android:dashWidth="8dp"
+        android:dashGap="4dp" />
+
+    <!-- Внутренний отступ для второй рамки -->
+    <padding
+        android:left="6dp"
+        android:top="6dp"
+        android:right="6dp"
+        android:bottom="6dp" />
 </shape>
