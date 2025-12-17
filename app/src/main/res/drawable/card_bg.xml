@@ -1,22 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shape xmlns:android="http://schemas.android.com/apk/res/android">
-    <!-- Углы слегка скруглены, как у панелей в интерфейсе DOOM -->
-    <corners android:radius="4dp" />
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <!-- Тёмный фоновый цвет, как космос или глубина базы -->
-    <solid android:color="#0A0A12" />
+    <!-- Градиентный фон из второго кода -->
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="8dp" />
+            <gradient
+                android:startColor="#020202"
+                android:centerColor="#5D1D24"
+                android:endColor="#CA1515"
+                android:angle="11" />
+        </shape>
+    </item>
 
-    <!-- Двойная рамка: внутренняя неоновая, внешняя "кровавая" -->
-    <stroke
-        android:width="3dp"
-        android:color="#92000A"
-        android:dashWidth="8dp"
-        android:dashGap="4dp" />
+    <!-- Тёмная основа из первого кода -->
+    <item android:bottom="4dp" android:left="4dp" android:right="4dp" android:top="4dp">
+        <shape android:shape="rectangle">
+            <corners android:radius="4dp" />
+            <solid android:color="#171318" />
+        </shape>
+    </item>
 
-    <!-- Внутренний отступ для второй рамки -->
-    <padding
-        android:left="6dp"
-        android:top="6dp"
-        android:right="6dp"
-        android:bottom="6dp" />
-</shape>
+    <!-- Двойная рамка из первого кода -->
+    <item android:bottom="10dp" android:left="10dp" android:right="10dp" android:top="10dp">
+        <shape android:shape="rectangle">
+            <corners android:radius="2dp" />
+            <stroke
+                android:width="3dp"
+                android:color="#000000"
+                android:dashWidth="8dp"
+                android:dashGap="4dp" />
+        </shape>
+    </item>
+
+</layer-list>

@@ -5,35 +5,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:paddingTop="20dp"
+    android:paddingTop="30dp"
 
     android:background="@android:color/transparent">
 
     <!-- Заголовок PAGE 1 -->
 
-    <TextView
-        android:id="@+id/page1_title"
-        android:layout_width="84dp"
-        android:layout_height="33dp"
-        android:background="@drawable/card_bg"
-        android:fontFamily="@font/doom2016right"
-        android:paddingStart="20dp"
-        android:text="Triple"
-        android:textColor="#A00E02"
-        android:textSize="25sp"
-        app:layout_constraintStart_toStartOf="@+id/page1_frame"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <FrameLayout
         android:id="@+id/page1_frame"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/card_bg"
+        android:background="@drawable/background_item"
         android:padding="12dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.461"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/page1_title">
+        tools:layout_editor_absoluteY="53dp">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/page1_grid"

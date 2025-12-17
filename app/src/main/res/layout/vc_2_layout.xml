@@ -6,34 +6,22 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@android:color/transparent"
-    android:paddingTop="20dp"
+    android:paddingTop="39dp"
     >
 
     <!-- Заголовок PAGE 1 -->
-    <TextView
-        android:id="@+id/page1_title"
-        android:layout_width="75dp"
-        android:layout_height="33dp"
-        android:background="@drawable/card_bg"
-        android:fontFamily="@font/doom2016right"
-        android:paddingStart="20dp"
-        android:text="MILL"
-        android:textColor="#A00E02"
-        android:textSize="25sp"
-        app:layout_constraintStart_toStartOf="@+id/page1_frame"
-        app:layout_constraintTop_toTopOf="parent" />
 
 
     <FrameLayout
         android:id="@+id/page1_frame"
         android:layout_width="348dp"
         android:layout_height="203dp"
-        android:background="@drawable/card_bg"
+        android:background="@drawable/background_item"
         android:padding="12dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.461"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/page1_title">
+        tools:layout_editor_absoluteY="53dp">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/page1_grid"
