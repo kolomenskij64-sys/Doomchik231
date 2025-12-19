@@ -15,41 +15,37 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:orientation="vertical">
 
             <ImageButton
                 android:id="@+id/vc_button"
                 android:layout_width="wrap_content"
-                android:layout_height="158dp"
+                android:layout_height="159dp"
                 android:layout_gravity="center"
                 android:background="@null"
                 android:scaleType="fitXY"
-                android:src="@drawable/plasma" />
+                android:src="@drawable/plasma1" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_weight="1"
+                android:fontFamily="@font/doom2016right"
+                android:text="SET: 0 / 2                                                   PLASMA GUN"
+                android:textColor="#FFD700"
+                android:textSize="30sp" />
 
             <LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="left"
-                    android:layout_weight="1"
-                    android:fontFamily="@font/doom2016right"
-                    android:text="SET: 0 / 2"
-                    android:textColor="#FFD700"
-                    android:textSize="30sp" />
 
-                <TextView
-                    android:layout_width="92dp"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="right"
-                    android:layout_weight="1"
-                    android:paddingLeft="35dp"
-                    android:fontFamily="@font/goldman_font"
-                    android:textColor="#FFD700"
-                    android:textSize="15sp" />
             </LinearLayout>
 
 

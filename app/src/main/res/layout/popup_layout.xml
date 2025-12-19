@@ -55,7 +55,6 @@
         android:backgroundTint="#2196F3"
         android:elevation="2dp"
         android:src="@drawable/ph"
-        android:text="Понятно"
         android:textAllCaps="false"
         android:textColor="#FFFFFF"
         android:textStyle="bold" />

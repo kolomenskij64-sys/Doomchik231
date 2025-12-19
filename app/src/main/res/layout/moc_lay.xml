@@ -5,7 +5,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:background="@drawable/background_doom"
+    android:background="@drawable/back_main"
     >
 
     <!-- ФИКСИРОВАННЫЙ ЗАГОЛОВОК (не скролится) -->
@@ -34,7 +34,7 @@
                 android:layout_width="89dp"
                 android:layout_height="33dp"
                 android:fontFamily="@font/doom2016right"
-                android:text="SHOOT GUN"
+                android:text="SHOTGUN"
                 android:textColor="#A00E02"
                 android:textSize="30sp"
                 app:layout_constraintEnd_toEndOf="parent"
