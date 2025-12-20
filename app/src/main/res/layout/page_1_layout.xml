@@ -34,7 +34,7 @@
                 android:layout_height="176dp"
                 android:background="@null"
                 android:scaleType="fitXY"
-                android:src="@drawable/triple_mod"
+                android:src="@drawable/shotgun_mod1"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"

@@ -31,11 +31,13 @@
 
             <ImageButton
                 android:id="@+id/p2_item_center2"
-                android:layout_width="323dp"
-                android:layout_height="179dp"
+                android:layout_width="314dp"
+                android:layout_height="172dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="4dp"
                 android:background="@null"
                 android:scaleType="fitXY"
-                android:src="@drawable/plasma_mod2"
+                android:src="@drawable/plasmagun_mod2"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 

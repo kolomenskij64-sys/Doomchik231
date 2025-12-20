@@ -5,22 +5,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@android:color/transparent"
-    android:paddingTop="39dp">
+    android:paddingTop="30dp"
+
+    android:background="@android:color/transparent">
 
     <!-- Заголовок PAGE 1 -->
 
-
     <FrameLayout
         android:id="@+id/page1_frame"
-        android:layout_width="348dp"
-        android:layout_height="203dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:background="@drawable/background_item"
         android:padding="12dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.461"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="52dp">
+        tools:layout_editor_absoluteY="53dp">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/page1_grid"
@@ -29,20 +29,19 @@
 
 
             <ImageButton
-                android:id="@+id/p2_item3"
-                android:layout_width="317dp"
-                android:layout_height="174dp"
+                android:id="@+id/rocket_p1"
+                android:layout_width="320dp"
+                android:layout_height="176dp"
                 android:background="@null"
                 android:scaleType="fitXY"
-                android:src="@drawable/gaussgun_mod2"
+                android:src="@drawable/rocketlauncher_mod1"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.571"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
-        </androidx.constraintlayout.widget.ConstraintLayout>
 
+        </androidx.constraintlayout.widget.ConstraintLayout>
     </FrameLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

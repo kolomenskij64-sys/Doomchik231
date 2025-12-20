@@ -7,7 +7,7 @@
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="Doomer"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Hd2wartracker">
@@ -24,9 +24,13 @@
             android:exported="false">
         </activity>
         <activity
+            android:name=".ui_screen"
+            android:exported="false">
+        </activity>
+        <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:label="@string/app_name"
+            android:label="Doomer"
             android:theme="@style/Theme.Hd2wartracker">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

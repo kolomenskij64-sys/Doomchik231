@@ -34,7 +34,7 @@
                 android:layout_height="174dp"
                 android:background="@null"
                 android:scaleType="fitXY"
-                android:src="@drawable/pop"
+                android:src="@drawable/shotgun_mod2"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.666"

@@ -28,16 +28,17 @@
 
             <ImageButton
                 android:id="@+id/vc_p1_item1"
-                android:layout_width="325dp"
-                android:layout_height="179dp"
+                android:layout_width="314dp"
+                android:layout_height="172dp"
                 android:background="@null"
                 android:scaleType="fitXY"
-                android:src="@drawable/plasma_mod1"
+                android:src="@drawable/plasmagun_mod1"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.538"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="1.0" />
+                app:layout_constraintVertical_bias="0.533" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>

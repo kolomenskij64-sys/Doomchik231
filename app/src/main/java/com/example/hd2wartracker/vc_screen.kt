@@ -10,30 +10,9 @@ import android.animation.ObjectAnimator
 class vc_screen : Activity() {
 
     private lateinit var buttons:List<ImageButton>
-    private lateinit var progressBar: ProgressBar
 
     private val pressed = mutableSetOf<Int>()
 
-    private val pressedImages = listOf(
-        R.drawable.ph,
-        R.drawable.ph,
-        R.drawable.ph,
-        R.drawable.ph,
-        R.drawable.ph,
-        R.drawable.ph,
-        R.drawable.ph,
-        R.drawable.ph
-    )
-    private val normalImages = listOf(
-        R.drawable.plasma_mod1,
-        R.drawable.vc_p1_2,
-        R.drawable.vc_p1_3,
-        R.drawable.vc_p1_4,
-        R.drawable.vc_p1_5,
-        R.drawable.vc_p1_6,
-        R.drawable.vc_p1_7,
-        R.drawable.vc_p1_8
-    )
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.vc_lay)
@@ -43,6 +22,9 @@ class vc_screen : Activity() {
 
         buttons = listOfNotNull(
             findViewById<ImageButton>(R.id.vc_p1_item1),
+            findViewById<ImageButton>(R.id.p2_item_center2),
+            findViewById<ImageButton>(R.id.p3_item1)
+
 
         )
 
@@ -61,16 +43,6 @@ class vc_screen : Activity() {
 
     }
     private fun handleButtonPress(index: Int, button: ImageButton) {
-
-        if (pressed.contains(index)) {
-            pressed.remove(index)
-            button.setImageResource(normalImages[index])
-        }
-        else{
-            pressed.add(index)
-            button.setImageResource(pressedImages[index])
-        }
-
 
         val part = 100f / buttons.size
         val newProgress = (pressed.size * part).toInt()

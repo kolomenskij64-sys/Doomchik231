@@ -28,14 +28,14 @@
 
             <ImageButton
                 android:id="@+id/p3_item_center"
-                android:layout_width="323dp"
-                android:layout_height="182dp"
+                android:layout_width="317dp"
+                android:layout_height="174dp"
                 android:background="@null"
                 android:scaleType="fitXY"
-                android:src="@drawable/ammo_shotgun"
+                android:src="@drawable/shotgun_ammo"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintHorizontal_bias="0.571"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 

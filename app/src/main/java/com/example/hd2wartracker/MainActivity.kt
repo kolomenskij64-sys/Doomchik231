@@ -16,6 +16,7 @@ class MainActivity : Activity() {
         val btnSwitch = findViewById<ImageButton>(R.id.moc_button)
         val btnVc = findViewById<ImageButton>(R.id.vc_button)
         val btnUl = findViewById<ImageButton>(R.id.url_button)
+        val uiScreen = findViewById<ImageButton>(R.id.ui_button)
 
 
 
@@ -40,6 +41,12 @@ class MainActivity : Activity() {
         btnUl.setOnClickListener {
             val intent = Intent(this, ul_screen::class.java)
 
+
+
+            startActivity(intent)
+        }
+        uiScreen.setOnClickListener {
+            val intent = Intent(this, ui_screen::class.java)
 
 
             startActivity(intent)

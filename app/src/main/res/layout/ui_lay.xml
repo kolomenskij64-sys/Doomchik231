@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
     android:background="@drawable/back_main"
     >
@@ -14,33 +15,31 @@
 
         <ImageButton
             android:id="@+id/moc_backbutton"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="59dp"
+            android:layout_height="59dp"
             android:src="@drawable/back_button"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
+            app:layout_constraintTop_toTopOf="parent" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="0dp"
             android:layout_height="57dp"
-            android:background="@drawable/background_item"
+            android:background="@drawable/card_bg"
             android:paddingTop="10dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/moc_backbutton"
             app:layout_constraintTop_toTopOf="parent">
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="158dp"
+                android:layout_height="35dp"
                 android:fontFamily="@font/doom2016right"
-                android:text="PLASMA GUN"
+                android:text="ROCKET  LAUNCHER"
                 android:textColor="#A00E02"
                 android:textSize="30sp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.43"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="1.0" />
+                app:layout_constraintTop_toTopOf="parent" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>
@@ -58,9 +57,9 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <include layout="@layout/vc_1_layout"/>
-            <include layout="@layout/vc_2_layout"/>
-            <include layout="@layout/vc_3_layout"/>
+            <include layout="@layout/rocket_page1"/>
+            <include layout="@layout/rocket_page2"/>
+            <include layout="@layout/rocket_page3"/>
 
         </LinearLayout>
     </ScrollView>

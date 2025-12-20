@@ -30,11 +30,11 @@
 
             <ImageButton
                 android:id="@+id/vc_p1_item1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="317dp"
+                android:layout_height="175dp"
                 android:background="@null"
                 android:scaleType="fitXY"
-                android:src="@drawable/gauss_mod"
+                android:src="@drawable/gaussgun_mod1"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"

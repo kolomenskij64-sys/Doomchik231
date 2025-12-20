@@ -39,7 +39,7 @@
                     android:layout_weight="1"
                     android:fontFamily="@font/doom2016right"
                     android:text="Set: 0 / 2                                            GAUSS  CANNON"
-                    android:textColor="#C5AA00"
+                    android:textColor="#FFD700"
                     android:textSize="30sp" />
 
             </LinearLayout>

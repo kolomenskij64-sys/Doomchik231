@@ -7,7 +7,7 @@ import android.widget.ImageButton
 import android.widget.ProgressBar
 import android.animation.ObjectAnimator
 
-class ul_screen : Activity() {
+class ui_screen : Activity() {
 
     private lateinit var buttons:List<ImageButton>
 
@@ -15,18 +15,18 @@ class ul_screen : Activity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.ul_layout)
+        setContentView(R.layout.ui_lay)
 
-        val btnSwitch = findViewById<ImageButton>(R.id.moc_backbutton)
+        val uiScreen = findViewById<ImageButton>(R.id.moc_backbutton)
 
 
         buttons = listOfNotNull(
-            findViewById<ImageButton>(R.id.vc_p1_item1),
+            findViewById<ImageButton>(R.id.rocket_p1),
 
 
 
-            findViewById<ImageButton>(R.id.p2_item3),
-            findViewById<ImageButton>(R.id.p3_item1),
+            findViewById<ImageButton>(R.id.rocket_p2),
+            findViewById<ImageButton>(R.id.rocket_p3),
 
             )
 
@@ -37,7 +37,7 @@ class ul_screen : Activity() {
             }
         }
 
-        btnSwitch.setOnClickListener {
+        uiScreen.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
