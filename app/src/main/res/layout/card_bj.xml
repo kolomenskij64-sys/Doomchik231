@@ -20,7 +20,7 @@
 
             <ImageButton
                 android:id="@+id/ui_button"
-                android:layout_width="343dp"
+                android:layout_width="347dp"
                 android:layout_height="163dp"
                 android:background="@null"
                 android:scaleType="fitXY"
