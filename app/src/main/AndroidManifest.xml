@@ -28,6 +28,10 @@
             android:exported="false">
         </activity>
         <activity
+            android:name=".PopupActivity"
+            android:exported="false">
+        </activity>
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="Doomer"

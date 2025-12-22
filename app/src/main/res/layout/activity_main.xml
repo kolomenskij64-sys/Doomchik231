@@ -11,13 +11,13 @@
         android:orientation="vertical">
 
 
-        <TextView
+        <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="87dp"
             android:layout_gravity="center"
-            android:fontFamily="@font/doom2016right"
             android:layout_marginBottom="8dp"
-            android:text="Doom"
+            android:fontFamily="@font/doom2016right"
+            android:src="@drawable/doom_word"
             android:textColor="#A00E02"
             android:textSize="60dp" />
 

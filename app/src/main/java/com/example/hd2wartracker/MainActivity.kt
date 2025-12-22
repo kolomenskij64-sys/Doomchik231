@@ -1,9 +1,12 @@
 package com.example.hd2wartracker
 
+import android.annotation.SuppressLint
 import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
+import android.widget.FrameLayout
 import android.widget.ImageButton
 import android.widget.ProgressBar
 import android.widget.TextView
@@ -48,5 +51,11 @@ class MainActivity : Activity() {
 
             startActivity(intent)
         }
+        findViewById<ImageButton>(R.id.p1_item_center)?.setOnClickListener {
+            Log.d("CLICK", "ImageButton нажат! Запускаю PopupActivity...")
+            val intent = Intent(this, PopupActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
+

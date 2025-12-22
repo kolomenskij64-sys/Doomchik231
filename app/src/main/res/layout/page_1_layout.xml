@@ -34,6 +34,8 @@
                 android:layout_height="176dp"
                 android:background="@null"
                 android:scaleType="fitXY"
+                android:clickable="true"
+                android:focusable="true"
                 android:src="@drawable/shotgun_mod1"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
