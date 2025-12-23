@@ -6,6 +6,8 @@
     android:background="@drawable/popup_backgroud"
     android:padding="16dp"
     android:layout_gravity="center"
+
+
     android:elevation="8dp">
     <!-- Заголовок -->
 
@@ -28,9 +30,12 @@
     <!-- Разделитель -->
 
     <!-- Прокручиваемая область -->
+
+    <!-- Кнопка закрытия -->
+
     <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_width="264dp"
+        android:layout_height="171dp"
         android:layout_weight="1"
         android:fillViewport="true"
         android:overScrollMode="ifContentScrolls">
@@ -39,16 +44,14 @@
             android:id="@+id/tv_content"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=""
-            android:textSize="15sp"
-            android:textColor="@color/black"
+            android:fadeScrollbars="true"
             android:lineSpacingExtra="4dp"
             android:scrollbars="vertical"
-            android:fadeScrollbars="true" />
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="15sp" />
 
     </ScrollView>
-
-    <!-- Кнопка закрытия -->
 
     <Button
         android:id="@+id/btn1_close"

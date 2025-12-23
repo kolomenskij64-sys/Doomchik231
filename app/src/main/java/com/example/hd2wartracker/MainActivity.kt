@@ -8,6 +8,7 @@ import android.util.Log
 import android.widget.Button
 import android.widget.FrameLayout
 import android.widget.ImageButton
+import android.widget.PopupMenu
 import android.widget.ProgressBar
 import android.widget.TextView
 
@@ -51,11 +52,7 @@ class MainActivity : Activity() {
 
             startActivity(intent)
         }
-        findViewById<ImageButton>(R.id.p1_item_center)?.setOnClickListener {
-            Log.d("CLICK", "ImageButton нажат! Запускаю PopupActivity...")
-            val intent = Intent(this, PopupActivity::class.java)
-            startActivity(intent)
+
         }
     }
-}
 
