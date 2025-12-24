@@ -5,7 +5,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:background="@drawable/back_main"
+    android:background="@drawable/panda_po2"
     >
 
     <!-- ФИКСИРОВАННЫЙ ЗАГОЛОВОК (не скролится) -->
@@ -17,7 +17,8 @@
             android:id="@+id/moc_backbutton"
             android:layout_width="59dp"
             android:layout_height="59dp"
-            android:src="@drawable/back_button"
+            android:src="@drawable/exit"
+            android:background="@color/black"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
