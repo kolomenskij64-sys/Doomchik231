@@ -19,7 +19,7 @@
                 android:id="@+id/moc_backbutton"
                 android:layout_height="60dp"
                 android:background="@color/black"
-                android:src="@drawable/exit">
+                android:src="@drawable/icon8">
             </ImageButton>
 
             <LinearLayout

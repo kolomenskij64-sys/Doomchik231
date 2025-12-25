@@ -16,7 +16,7 @@
             android:id="@+id/moc_backbutton"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:src="@drawable/exit"
+            android:src="@drawable/icon8"
             android:background="@color/black"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"/>
