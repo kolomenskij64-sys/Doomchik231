@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.widget.ImageButton
 import android.widget.ProgressBar
 import android.animation.ObjectAnimator
+import android.util.Log
 
 class ui_screen : Activity() {
 
@@ -50,7 +51,17 @@ class ui_screen : Activity() {
         val part = 100f / buttons.size
         val newProgress = (pressed.size * part).toInt()
 
+        findViewById<ImageButton>(R.id.rocket_p1)?.setOnClickListener {
+            Log.d("CLICK", "ImageButton нажат! Запускаю PopupActivity...")
+            val intent = Intent(this, PopupActivity7::class.java)
+            startActivity(intent)
 
+            findViewById<ImageButton>(R.id.rocket_p2).setOnClickListener {
+                val intent = Intent(this, PopupActivity8::class.java)
+                startActivity(intent)
 
+            }
+
+        }
     }
 }

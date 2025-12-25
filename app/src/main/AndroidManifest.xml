@@ -33,6 +33,41 @@
             android:exported="false">
         </activity>
         <activity
+            android:name=".PopupActivity2"
+            android:theme="@style/Theme.AppCompat.Dialog.Alert"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".PopupActivity3"
+            android:theme="@style/Theme.AppCompat.Dialog.Alert"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".PopupActivity4"
+            android:theme="@style/Theme.AppCompat.Dialog.Alert"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".PopupActivity5"
+            android:theme="@style/Theme.AppCompat.Dialog.Alert"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".PopupActivity6"
+            android:theme="@style/Theme.AppCompat.Dialog.Alert"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".PopupActivity7"
+            android:theme="@style/Theme.AppCompat.Dialog.Alert"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".PopupActivity8"
+            android:theme="@style/Theme.AppCompat.Dialog.Alert"
+            android:exported="false">
+        </activity>
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="Doomer"

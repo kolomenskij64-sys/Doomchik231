@@ -13,7 +13,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Шквальный огонь"
+        android:text="Самонаведение"
         android:textSize="18sp"
         android:textStyle="bold"
         android:textColor="#333"
@@ -47,14 +47,14 @@
             android:lineSpacingExtra="4dp"
             android:scrollbars="vertical"
             android:textStyle="bold"
-            android:text="Аргент-запитанный компрессионный автомат перезарядки позволяет стрелку вести полуавтоматический огонь, выпуская до 3 патронов подряд. Эта возможность чрезвычайно эффективна в ближнем бою, поскольку позволяет моментально уничтожить почти любую цель, кроме самых мощных. После использования автомату перезарядки требуется несколько секунд для восстановления давления в системе."
+            android:text="Каждый снаряд для ракетомета ОАК при производстве снабжается системой наведения. Данная модификация активирует эту систему. Микромоторы в оперении направляют ракету к помеченной цели. При использовании стрелком встроенного лазерного целеуказателя, после наведения на цель выпускаются сразу три ракеты. Для захвата цели необходимо несколько секунд удерживать ракетомет неподвижно, но после этого ракеты уже не промахнутся."
             android:textColor="@color/black"
             android:textSize="15sp" />
 
     </ScrollView>
 
     <Button
-        android:id="@+id/btn1_close"
+        android:id="@+id/layout_popup_8"
         android:layout_width="264dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
@@ -63,7 +63,7 @@
         android:textStyle="bold" />
 
     <Button
-        android:id="@+id/btn2_clos"
+        android:id="@+id/layout_popup_close8"
         android:layout_width="268dp"
         android:layout_height="37dp"
         android:layout_marginTop="12dp"

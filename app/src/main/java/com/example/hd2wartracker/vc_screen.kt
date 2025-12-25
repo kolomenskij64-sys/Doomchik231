@@ -6,10 +6,11 @@ import android.os.Bundle
 import android.widget.ImageButton
 import android.widget.ProgressBar
 import android.animation.ObjectAnimator
+import android.util.Log
 
 class vc_screen : Activity() {
 
-    private lateinit var buttons:List<ImageButton>
+    private lateinit var buttons: List<ImageButton>
 
     private val pressed = mutableSetOf<Int>()
 
@@ -42,13 +43,23 @@ class vc_screen : Activity() {
 
 
     }
+
     private fun handleButtonPress(index: Int, button: ImageButton) {
 
         val part = 100f / buttons.size
         val newProgress = (pressed.size * part).toInt()
 
+        findViewById<ImageButton>(R.id.vc_p1_item1)?.setOnClickListener {
+            Log.d("CLICK", "ImageButton нажат! Запускаю PopupActivity...")
+            val intent = Intent(this, PopupActivity3::class.java)
+            startActivity(intent)
 
+            findViewById<ImageButton>(R.id.p2_item_center2).setOnClickListener {
+                val intent = Intent(this, PopupActivity4::class.java)
+                startActivity(intent)
 
+            }
+
+        }
     }
-
 }

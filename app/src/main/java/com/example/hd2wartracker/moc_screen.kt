@@ -62,6 +62,11 @@ class moc_screen : Activity() {
             Log.d("CLICK", "ImageButton нажат! Запускаю PopupActivity...")
             val intent = Intent(this, PopupActivity::class.java)
             startActivity(intent)
+
+            findViewById<ImageButton>(R.id.p2_item_center).setOnClickListener {
+                val intent = Intent(this, PopupActivity2::class.java)
+                startActivity(intent)
+            }
         }
     }
 }

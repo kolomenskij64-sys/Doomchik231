@@ -13,7 +13,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Шквальный огонь"
+        android:text="Термоудар"
         android:textSize="18sp"
         android:textStyle="bold"
         android:textColor="#333"
@@ -47,14 +47,14 @@
             android:lineSpacingExtra="4dp"
             android:scrollbars="vertical"
             android:textStyle="bold"
-            android:text="Аргент-запитанный компрессионный автомат перезарядки позволяет стрелку вести полуавтоматический огонь, выпуская до 3 патронов подряд. Эта возможность чрезвычайно эффективна в ближнем бою, поскольку позволяет моментально уничтожить почти любую цель, кроме самых мощных. После использования автомату перезарядки требуется несколько секунд для восстановления давления в системе."
+            android:text="Медная ёмкость, прикрепленная к фокусирующей линзе плазменного ружья, поглощает тепловую энергию выстрела и может мгновенно выпускать ее, передав тепло в боросиликатную диффузионную камеру. Это создает на конце ствола тепловую волну, наносящую локальный урон, и иногда – ударную волну, отбрасывающую цели. Ёмкость перезаряжается при обычном применении оружия. Стрелок частично защищён от тепловой волны, но, несмотря на это, при использовании данной модификации рекомендуется носить униформу с термальной защитой (такую как прототипы X-костюма)"
             android:textColor="@color/black"
             android:textSize="15sp" />
 
     </ScrollView>
 
     <Button
-        android:id="@+id/btn1_close"
+        android:id="@+id/layout_popup_3"
         android:layout_width="264dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
@@ -63,7 +63,7 @@
         android:textStyle="bold" />
 
     <Button
-        android:id="@+id/btn2_clos"
+        android:id="@+id/layout_popup_close3"
         android:layout_width="268dp"
         android:layout_height="37dp"
         android:layout_marginTop="12dp"
