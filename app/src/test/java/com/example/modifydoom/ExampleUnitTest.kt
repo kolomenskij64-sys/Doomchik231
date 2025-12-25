@@ -1,4 +1,4 @@
-package com.example.hd2wartracker
+package com.example.modifydoom
 
 import org.junit.Test
 

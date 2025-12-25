@@ -1,14 +1,12 @@
-package com.example.hd2wartracker
+package com.example.modifydoom
 
 import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
 import android.widget.ImageButton
-import android.widget.ProgressBar
-import android.animation.ObjectAnimator
 import android.util.Log
 
-class ui_screen : Activity() {
+class ul_screen : Activity() {
 
     private lateinit var buttons:List<ImageButton>
 
@@ -16,18 +14,18 @@ class ui_screen : Activity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.ui_lay)
+        setContentView(R.layout.ul_layout)
 
-        val uiScreen = findViewById<ImageButton>(R.id.moc_backbutton)
+        val btnSwitch = findViewById<ImageButton>(R.id.moc_backbutton)
 
 
         buttons = listOfNotNull(
-            findViewById<ImageButton>(R.id.rocket_p1),
+            findViewById<ImageButton>(R.id.vc_p1_item1),
 
 
 
-            findViewById<ImageButton>(R.id.rocket_p2),
-            findViewById<ImageButton>(R.id.rocket_p3),
+            findViewById<ImageButton>(R.id.p2_item3),
+            findViewById<ImageButton>(R.id.p3_item1),
 
             )
 
@@ -38,7 +36,7 @@ class ui_screen : Activity() {
             }
         }
 
-        uiScreen.setOnClickListener {
+        btnSwitch.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
@@ -51,13 +49,13 @@ class ui_screen : Activity() {
         val part = 100f / buttons.size
         val newProgress = (pressed.size * part).toInt()
 
-        findViewById<ImageButton>(R.id.rocket_p1)?.setOnClickListener {
+        findViewById<ImageButton>(R.id.vc_p1_item1)?.setOnClickListener {
             Log.d("CLICK", "ImageButton нажат! Запускаю PopupActivity...")
-            val intent = Intent(this, PopupActivity7::class.java)
+            val intent = Intent(this, PopupActivity5::class.java)
             startActivity(intent)
 
-            findViewById<ImageButton>(R.id.rocket_p2).setOnClickListener {
-                val intent = Intent(this, PopupActivity8::class.java)
+            findViewById<ImageButton>(R.id.p2_item3).setOnClickListener {
+                val intent = Intent(this, PopupActivity6::class.java)
                 startActivity(intent)
 
             }

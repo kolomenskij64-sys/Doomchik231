@@ -1,4 +1,4 @@
-package com.example.hd2wartracker.ui.theme
+package com.example.modifydoom.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

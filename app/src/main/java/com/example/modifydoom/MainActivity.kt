@@ -1,16 +1,9 @@
-package com.example.hd2wartracker
+package com.example.modifydoom
 
-import android.annotation.SuppressLint
 import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
-import android.util.Log
-import android.widget.Button
-import android.widget.FrameLayout
 import android.widget.ImageButton
-import android.widget.PopupMenu
-import android.widget.ProgressBar
-import android.widget.TextView
 
 class MainActivity : Activity() {
 

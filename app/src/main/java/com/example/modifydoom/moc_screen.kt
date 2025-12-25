@@ -1,11 +1,9 @@
-package com.example.hd2wartracker
+package com.example.modifydoom
 
 import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
 import android.widget.ImageButton
-import android.widget.ProgressBar
-import android.animation.ObjectAnimator
 import android.util.Log
 
 class moc_screen : Activity() {

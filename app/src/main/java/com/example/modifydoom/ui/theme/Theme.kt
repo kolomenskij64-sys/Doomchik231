@@ -1,6 +1,5 @@
-package com.example.hd2wartracker.ui.theme
+package com.example.modifydoom.ui.theme
 
-import android.app.Activity
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme

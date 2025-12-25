@@ -1,14 +1,9 @@
-package com.example.hd2wartracker // тот же пакет!
+package com.example.modifydoom // тот же пакет!
 
 import android.app.Activity
-import android.graphics.drawable.ColorDrawable
-import android.graphics.drawable.Drawable
 import android.os.Bundle
-import android.util.Log
 import android.view.View
-import android.view.Window
 import android.widget.Button
-import androidx.compose.ui.graphics.Color
 
 class PopupActivity3 : Activity() {
 

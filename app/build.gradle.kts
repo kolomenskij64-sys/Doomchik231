@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.hd2wartracker"
+    namespace = "com.example.modifydoom"
     compileSdk = 36
 
     defaultConfig {
